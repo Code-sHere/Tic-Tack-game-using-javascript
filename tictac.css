@@ -1,0 +1,67 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #548687;
+	text-align: center;
+}
+
+.container{
+	height: 70vh;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.game {
+	height: 60vmin;
+	width: 60vmin;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5vmin;
+	
+}
+.btn{
+	background-color: #548687;
+	border-style: none;
+	font-size: 1.2rem;
+	margin-top: 30px;
+	margin: 30px;
+	padding: 10px;
+}
+
+.box{
+  font-size: 18vmin;
+  height: 18vmin;
+  width: 18vmin;
+  background:  transparent;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 2rem 0rem 3rem rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  font-family: "Archivo Black", "Archivo", sans-serif;
+  font-weight: normal;
+  display: block;
+  text-align: center;
+  color: white;
+  animation: neon 3s infinite;
+}
+
+
+#masg {
+	color: red;
+	font-size: 8vmin;
+
+}
+
+.masg-container {
+	height: 25vmin;
+}
+
+.hide {
+	display: none;
+}
